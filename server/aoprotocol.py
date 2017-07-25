@@ -262,7 +262,7 @@ class AOProtocol(asyncio.Protocol):
         """
 
         self.client.send_command('SM', *self.server.music_list_ao2)
-        
+
 
     def net_cmd_rd(self, _):
         """ Asks for server metadata(charscheck, motd etc.) and a DONE#% signal(also best packet)
@@ -515,7 +515,7 @@ class AOProtocol(asyncio.Protocol):
 
     def net_cmd_adtb(self, args):
         raise NotImplementedError
-    
+
     def net_cmd_addone(self, args):
         raise NotImplementedError
 

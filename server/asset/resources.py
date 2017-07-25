@@ -51,7 +51,7 @@ class Character(Asset):
     """
     Holds character assets.
     """
-    
+
     def __init__(self, hash, name):
         __super__.__init__(hash, name)
 
@@ -60,7 +60,7 @@ class Evidence(Asset):
     """
     Holds evidence assets.
     """
-    
+
     def __init__(self, hash, name):
         __super__.__init__(hash, name)
 
@@ -79,7 +79,7 @@ class Music(SingleFileAsset):
     """
     Holds a single music file.
     """
-    
+
     def __init__(self, hash, name, path):
         __super__.__init__(hash, name, path)
 
